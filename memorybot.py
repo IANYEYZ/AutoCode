@@ -125,12 +125,12 @@ with st.sidebar():
     #U
     #Your API Key
     APIKEY = st.text_input("你的APIKEY",type = "password")
-    #'
-    if APIKEY:
-        #x
-        ChatGPT1.set_api_key(APIKEY)
-        ChatGPT2.set_api_key(APIKEY)
-        ChatGPT3.set_api_key(APIKEY)
+#'
+if APIKEY:
+    #x
+    ChatGPT1.set_api_key(APIKEY)
+    ChatGPT2.set_api_key(APIKEY)
+    ChatGPT3.set_api_key(APIKEY)
 
 
 if user_input:
