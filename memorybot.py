@@ -121,10 +121,10 @@ st.title("你的个人开发团队")
 st.markdown("👨 = Elon Musk,🧔 = Steve Jobs,🤖 = CAN(code anything now),😀 = You")
 user_input = st.text_area("You: ",placeholder = "Ask me anything ...", key="input")
 
-with st.sidebar():
-    #U
-    #Your API Key
-    APIKEY = st.text_input("你的APIKEY",type = "password")
+#with st.sidebar():
+#U
+#Your API Key
+APIKEY = st.sidebar.text_input("你的APIKEY",type = "password")
 #'
 if APIKEY:
     #x
