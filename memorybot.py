@@ -109,9 +109,9 @@ if "GPTSteve Jobsmessages" not in st.session_state:
 ChatGPT1 = chatgpt()
 ChatGPT2 = chatgpt()
 ChatGPT3 = chatgpt()
-ChatGPT1.set_api_key('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')
-ChatGPT2.set_api_key('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')
-ChatGPT3.set_api_key('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')
+ChatGPT1.set_api_key('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')
+ChatGPT2.set_api_key('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')
+ChatGPT3.set_api_key('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')
 ChatGPT1.message = st.session_state["GPTElon Muskmessages"]
 ChatGPT2.message = st.session_state["GPTCANmessages"]
 ChatGPT3.message = st.session_state["GPTSteve Jobsmessages"]
