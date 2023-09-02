@@ -111,12 +111,12 @@ ChatGPT2 = chatgpt()
 ChatGPT3 = chatgpt()
 ChatGPT1.set_api_key('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')
 ChatGPT2.set_api_key('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')
-ChatGPT3.set_api_key('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')
+ChatGPT3.set_api_key('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')
 ChatGPT1.message = st.session_state["GPTElon Muskmessages"]
 ChatGPT2.message = st.session_state["GPTCANmessages"]
 ChatGPT3.message = st.session_state["GPTSteve Jobsmessages"]
 
-st.title("Your personal development group.")
+st.title("你的个人开发团队")
 st.markdown("👨 = Elon Musk,🧔 = Steve Jobs,🤖 = CAN(code anything now),😀 = You")
 user_input = st.text_area("You: ",placeholder = "Ask me anything ...", key="input")
 
